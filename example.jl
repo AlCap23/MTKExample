@@ -6,7 +6,7 @@
 
 using Pkg
 Pkg.activate(dirname(@__FILE__))
-Pkg.instantiate()
+Pkg.instantiate(); Pkg.resolve()
 # Look at the output
 Pkg.status()
 
